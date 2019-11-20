@@ -1,9 +1,5 @@
 # Firestore data model
 
-
-
-
-
 [https://firebase.google.com/docs/firestore/data-model](https://firebase.google.com/docs/firestore/data-model)
 
 * [How to Structure Your Data \| Get to Know Cloud Firestore \#5](https://youtu.be/haMOUb3KVSo)

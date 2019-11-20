@@ -4,3 +4,7 @@
 
 [How to Split Cloud Functions into Multiple Javascript Files in Firebase](https://bigcodenerd.org/split-cloud-functions-firebase/)
 
+{% hint style="danger" %}
+haven't tried this yet
+{% endhint %}
+

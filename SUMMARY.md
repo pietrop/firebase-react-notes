@@ -22,17 +22,18 @@
 ## Firestore
 
 * [Firestore](firestore/firestore.md)
-* [associated Firebase data with Users](firestore/associated-firebase-data-with-users.md)
 * [Firestore data model](firestore/firestore-data-model.md)
-* [Firestore update](firestore/firestore-update.md)
+* [associated Firebase data with Users](firestore/associated-firebase-data-with-users.md)
 * [Firestore write](firestore/firestore-write.md)
+* [Firestore - read](firestore/firestore-read.md)
+* [Firestore update](firestore/firestore-update.md)
 * [Persisting data offline](firestore/persisting-data-offline.md)
 
 ## Auth
 
 * [Auth](auth/auth.md)
-* [Firebase Auth with React](auth/firebase-auth-with-react.md)
 * [Firebase UI](auth/firebase-ui.md)
+* [Firebase Auth with React](auth/firebase-auth-with-react.md)
 * [Linking auth accounts](auth/linking-auth-accounts.md)
 * [Twitter sign in](auth/twitter-sign-in.md)
 * [Google sign in](auth/google-sign-in.md)
@@ -45,6 +46,7 @@
 * [Cloud Functions](cloud-functions/cloud-functions.md)
 * [HTTPS Callable](cloud-functions/https-callable.md)
 * [Cloud function separate in multiple files](cloud-functions/cloud-function-separate-in-multiple-files.md)
+* [Slack integration](cloud-functions/slack-integration.md)
 * [Twilio firebase functions](cloud-functions/twilio-firebase-functions.md)
 
 ## Storage
@@ -74,9 +76,10 @@
 * [STT + Google App Engine](stt/stt-+-google-app-engine.md)
 * [STT via Google Cloud Video intelligence API](stt/stt-via-google-cloud-video-intelligence-api.md)
 
-## Travis CI
+## CI Integration
 
-* [Travis CI integration](travis-ci/travis-ci-integration.md)
+* [Travis CI integration](ci-integration/travis-ci-integration.md)
+* [Github actions integration](ci-integration/github-actions-integration.md)
 
 ## Visual code
 

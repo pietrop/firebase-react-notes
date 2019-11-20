@@ -1,9 +1,5 @@
 # Firestore write
 
-
-
-
-
 ```javascript
 db.collection("transcripts").add({
   title: "new one",
@@ -17,13 +13,5 @@ db.collection("transcripts").add({
 });
 ```
 
-#### Firestore - read
-
-```javascript
-db.collection("transcripts").get().then((querySnapshot) => {
-  querySnapshot.forEach((doc) => {
-      console.log(`${doc.id} => ${JSON.stringify(doc.data())}`);
-  });
-});
-```
+#### 
 
