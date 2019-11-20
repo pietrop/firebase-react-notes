@@ -4,7 +4,7 @@
 
 ## Firebase
 
-* [Config init](firebase/config-init.md)
+* [Intro](firebase/config-init.md)
 
 ## React + firebase
 
@@ -77,8 +77,8 @@
 
 ## STT
 
-* [STT via Google Cloud Video intelligence API](stt/stt-via-google-cloud-video-intelligence-api.md)
 * [STT](stt/stt.md)
+* [STT via Google Cloud Video intelligence API](stt/stt-via-google-cloud-video-intelligence-api.md)
 
 ## Travis CI
 

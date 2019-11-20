@@ -1,7 +1,5 @@
 # Travis CI integration
 
-
-
 [Which Google Cloud services work with Firebase? - \#AskFirebase - 2.43min in](https://youtu.be/gpiDUAirCXQ?t=163)
 
 Firebase CLI, can give you a key for continuous integration like travis.
