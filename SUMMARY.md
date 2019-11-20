@@ -9,7 +9,13 @@
 ## React + firebase
 
 * [Firebase - Create React app setup](react-+-firebase/firebase-create-react-app-setup/README.md)
-  * [Create react app + firebase Dev](react-+-firebase/firebase-create-react-app-setup/create-react-app-+-firebase-dev.md)
+  * [Node & nvm](react-+-firebase/firebase-create-react-app-setup/node-and-nvm.md)
+  * [Create React App + Firebase](react-+-firebase/firebase-create-react-app-setup/create-react-app-+-firebase.md)
+  * [Create firebase app](react-+-firebase/firebase-create-react-app-setup/create-firebase-app.md)
+  * [Deploying To Firebase Hosting](react-+-firebase/firebase-create-react-app-setup/deploying-to-firebase-hosting.md)
+  * [Switching Environments](react-+-firebase/firebase-create-react-app-setup/switching-environments.md)
+  * [Typescript typings](react-+-firebase/firebase-create-react-app-setup/typescript-typings.md)
+  * [Firebase cloud function local development](react-+-firebase/firebase-create-react-app-setup/firebase-cloud-function-local-development.md)
   * [Resources](react-+-firebase/firebase-create-react-app-setup/untitled.md)
 * [Firebase React context](react-+-firebase/firebase-react-context.md)
 * [Firebase function local dev react](react-+-firebase/firebase-function-local-dev-react.md)

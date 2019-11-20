@@ -13,7 +13,7 @@
 >
 > For set you always have to provide document-shaped data:
 >
-> ```text
+> ```javascript
 > set(
 >   {a: {b: {c: true}}},
 >   {merge: true}
@@ -22,17 +22,17 @@
 >
 > With update you can also use field paths for updating nested values:
 >
-> ```text
+> ```javascript
 > update({
 >   'a.b.c': true
 > })
 > ```
 
-[Difference between set with {merge: true} and update](https://stackoverflow.com/questions/46597327/difference-between-set-with-merge-true-and-update)
+from [Difference between set with {merge: true} and update](https://stackoverflow.com/questions/46597327/difference-between-set-with-merge-true-and-update)
 
 **Removing a listener from firestorm**
 
-```text
+```javascript
 let unsub = db.collection('cities').onSnapshot(() => {
 
 });
