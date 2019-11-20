@@ -2,10 +2,6 @@
 
 * [Firebase React Notes](README.md)
 
-## Firebase
-
-* [Intro](firebase/config-init.md)
-
 ## React + firebase
 
 * [Firebase - Create React app setup](react-+-firebase/firebase-create-react-app-setup/README.md)
@@ -43,10 +39,6 @@
 * [Whitelisting](auth/whitelisting.md)
 * [limit auth to certain domain only](auth/limit-auth-to-certain-domain-only.md)
 * [Custom tokens](auth/custom-tokens.md)
-
-## Firebase-UI
-
-* [Firebase UI](firebase-ui/untitled.md)
 
 ## Cloud Functions
 
