@@ -17,7 +17,9 @@
   * [Typescript typings](react-+-firebase/firebase-create-react-app-setup/typescript-typings.md)
   * [Firebase cloud function local development](react-+-firebase/firebase-create-react-app-setup/firebase-cloud-function-local-development.md)
   * [Resources](react-+-firebase/firebase-create-react-app-setup/untitled.md)
-* [Firebase React context](react-+-firebase/firebase-react-context.md)
+* [Firebase React context](react-+-firebase/firebase-react-context/README.md)
+  * [Motivation](react-+-firebase/firebase-react-context/motivation.md)
+  * [Firebase React Context setup](react-+-firebase/firebase-react-context/firebase-react-context-setup.md)
 * [Firebase function local dev react](react-+-firebase/firebase-function-local-dev-react.md)
 * [React firebase hooks](react-+-firebase/react-firebase-hooks.md)
 
