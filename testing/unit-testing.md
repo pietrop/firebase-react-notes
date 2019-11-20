@@ -1,7 +1,5 @@
 # Unit testing
 
-
-
 > I think this is the only way to test the hosting in a fast iterative way… which sucks \(because it also costs money\).
 
 [Build unit tests](https://firebase.google.com/docs/rules/unit-tests)

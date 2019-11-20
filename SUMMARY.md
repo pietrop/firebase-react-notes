@@ -46,7 +46,7 @@
 
 ## Firebase-UI
 
-* [Untitled](firebase-ui/untitled.md)
+* [Firebase UI](firebase-ui/untitled.md)
 
 ## Cloud Functions
 
@@ -57,7 +57,8 @@
 
 ## Storage
 
-* [Storage](storage/storage.md)
+* [Create](storage/storage.md)
+* [Delete](storage/delete.md)
 
 ## Hosting
 
@@ -77,7 +78,8 @@
 
 ## STT
 
-* [STT](stt/stt.md)
+* [STT + Cloud Function](stt/stt.md)
+* [STT + Google App Engine](stt/stt-+-google-app-engine.md)
 * [STT via Google Cloud Video intelligence API](stt/stt-via-google-cloud-video-intelligence-api.md)
 
 ## Travis CI

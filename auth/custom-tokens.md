@@ -1,7 +1,5 @@
 # Custom tokens
 
-
-
 [Minting Custom Tokens with the Admin SDK for Node.js - Firecasts](https://youtu.be/WtYzHTXHBp0)
 
 [Firebase: Create custom tokens without service account credentials](https://medium.com/@hiranya911/firebase-create-custom-tokens-without-service-account-credentials-d6049c2d2d85)

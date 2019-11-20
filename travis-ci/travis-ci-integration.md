@@ -10,7 +10,7 @@ firebase login:ci
 
 In travis config, can add ENV `FIREBASE_TOKEN`.
 
-In travis yml
+In travis `.yml`
 
 ```text
 ...
