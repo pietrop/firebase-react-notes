@@ -44,6 +44,7 @@
 ## Cloud Functions
 
 * [Cloud Functions](cloud-functions/cloud-functions.md)
+* [Call functions via HTTP requests](cloud-functions/call-functions-via-http-requests.md)
 * [HTTPS Callable](cloud-functions/https-callable.md)
 * [Cloud function separate in multiple files](cloud-functions/cloud-function-separate-in-multiple-files.md)
 * [Slack integration](cloud-functions/slack-integration.md)
