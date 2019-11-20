@@ -67,13 +67,11 @@ import firebase, { db } from "../../Firebase.js";
 ```
 
   
-you might be getting this issue.
+you might be getting this warning message in the console.
 
-```text
-@firebase/app: 
-    Warning: Firebase is already defined in the global scope. Please make sure
-    Firebase library is only loaded once.
-```
+{% hint style="warning" %}
+`@firebase/app:` `Warning: Firebase is already defined in the global scope. Please make sure Firebase library is only loaded once.`
+{% endhint %}
 
-There's a better implementation as shown in DPE, using React context and higher order components.
+There's a better implementation as shown in the next section, using React context and higher order components.
 
