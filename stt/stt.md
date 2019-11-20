@@ -1,5 +1,7 @@
 # STT + Cloud Function
 
+
+
 {% hint style="warning" %}
 This implementation is not suitable for long files as [google cloud function times out after 1min to 9min ](https://cloud.google.com/functions/docs/concepts/exec#timeout)
 {% endhint %}

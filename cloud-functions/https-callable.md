@@ -62,29 +62,7 @@ exports.helloWorld = functions.https.onCall((data, context) => {
 });
 ```
 
-[https://stackoverflow.com/questions/43486278/how-do-i-structure-cloud-functions-for-firebase-to-deploy-multiple-functions-fro](https://stackoverflow.com/questions/43486278/how-do-i-structure-cloud-functions-for-firebase-to-deploy-multiple-functions-fro)   
   
 [https://github.com/firebase/functions-samples](https://github.com/firebase/functions-samples)   
-[  
-https://github.com/firebase/functions-samples/blob/master/ffmpeg-convert-audio/functions/index.js](https://github.com/firebase/functions-samples/blob/master/ffmpeg-convert-audio/functions/index.js)   
-  
-[https://medium.com/@vik.ceo/setting-up-environment-variables-for-firebase-functions-d78e52b84f48](https://medium.com/@vik.ceo/setting-up-environment-variables-for-firebase-functions-d78e52b84f48)   
-  
-[https://stackoverflow.com/questions/44766536/how-do-you-setup-local-environment-variables-for-cloud-functions-for-firebase](https://stackoverflow.com/questions/44766536/how-do-you-setup-local-environment-variables-for-cloud-functions-for-firebase)
-
-For this to run locally   
-  
-`firebase functions:config:get > .runtimeconfig.json` in `functions`   
-  
-folder, also add to `.gitignore`   
-  
-[https://stackoverflow.com/questions/51883178/firebase-functions-environment-variables-can-not-read-property-of-undefined](https://stackoverflow.com/questions/51883178/firebase-functions-environment-variables-can-not-read-property-of-undefined)   
-  
-[https://firebase.google.com/docs/functions/local-emulator\#serve\_http\_functions\_from\_the\_command\_line](https://firebase.google.com/docs/functions/local-emulator#serve_http_functions_from_the_command_line)
-
-[https://cloud.google.com/functions/docs/env-var](https://cloud.google.com/functions/docs/env-var)   
-  
- to set in firebase environment do 
-
-`firebase functions:config:set aws.aws_access_key_id="XXXX" aws.aws_scret_access_key="XXXX"`
+ 
 
