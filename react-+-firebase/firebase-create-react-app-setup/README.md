@@ -4,13 +4,11 @@ description: Local development
 
 # Firebase - Create React app setup
 
-Originally From [Developing and deploying create-react-app to multiple Firebase environments](https://dev.to/captemulation/developing-and-deploying-create-react-app-to-multiple-firebase-environments-4e8h)
-
 ### Introduction
 
-create-react-app makes it easy to quickly get started with React. Firebase makes it easy to quickly get started with web deployments. This article will show how to configure, build and deploy a React app to multiple environments in Firebase. Plus we will get it all working well together with Typescript.
+> create-react-app makes it easy to quickly get started with React. Firebase makes it easy to quickly get started with web deployments. This article will show how to configure, build and deploy a React app to multiple environments in Firebase. Plus we will get it all working well together with Typescript.
 
-### 
+Originally From [Developing and deploying create-react-app to multiple Firebase environments](https://dev.to/captemulation/developing-and-deploying-create-react-app-to-multiple-firebase-environments-4e8h)
 
 
 
