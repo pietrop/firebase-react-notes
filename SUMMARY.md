@@ -1,10 +1,19 @@
 # Table of contents
 
-* [Firebase React notes](README.md)
+* [Firebase React Notes](README.md)
 
 ## Firebase
 
 * [Config init](firebase/config-init.md)
+
+## React + firebase
+
+* [Firebase - Create React app setup](react-+-firebase/firebase-create-react-app-setup/README.md)
+  * [Create react app + firebase Dev](react-+-firebase/firebase-create-react-app-setup/create-react-app-+-firebase-dev.md)
+  * [Resources](react-+-firebase/firebase-create-react-app-setup/untitled.md)
+* [Firebase React context](react-+-firebase/firebase-react-context.md)
+* [Firebase function local dev react](react-+-firebase/firebase-function-local-dev-react.md)
+* [React firebase hooks](react-+-firebase/react-firebase-hooks.md)
 
 ## Firestore
 
@@ -13,6 +22,7 @@
 * [Firestore data model](firestore/firestore-data-model.md)
 * [Firestore update](firestore/firestore-update.md)
 * [Firestore write](firestore/firestore-write.md)
+* [Persisting data offline](firestore/persisting-data-offline.md)
 
 ## Auth
 
@@ -53,15 +63,6 @@
 
 * [Firebase analytics](firebase-analytics/firebase-analytics.md)
 
-## React + firebase
-
-* [Firebase - Create React app setup](react-+-firebase/firebase-create-react-app-setup/README.md)
-  * [Create react app + firebase Dev](react-+-firebase/firebase-create-react-app-setup/create-react-app-+-firebase-dev.md)
-  * [Untitled](react-+-firebase/firebase-create-react-app-setup/untitled.md)
-* [Firebase React context](react-+-firebase/firebase-react-context.md)
-* [Firebase function local dev react](react-+-firebase/firebase-function-local-dev-react.md)
-* [React firebase hooks](react-+-firebase/react-firebase-hooks.md)
-
 ## Google App Engine
 
 * [Google App Engine](google-app-engine/google-app-engine.md)
@@ -77,15 +78,15 @@
 
 ## Visual code
 
-* [Untitled](visual-code/untitled.md)
+* [Visual code extension](visual-code/untitled.md)
 
 ## Electron
 
-* [Untitled](electron/untitled.md)
+* [Firebase with electron](electron/untitled.md)
 
 ## Pricing
 
-* [Untitled](pricing/untitled.md)
+* [Pricing](pricing/untitled.md)
 
 ## Testing
 
@@ -93,9 +94,9 @@
 
 ## Privacy and Security
 
-* [Untitled](privacy-and-security/untitled.md)
+* [Privacy and security](privacy-and-security/untitled.md)
 
 ## Useful resources
 
-* [Untitled](useful-resources/untitled.md)
+* [links](useful-resources/untitled.md)
 

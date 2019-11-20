@@ -1,4 +1,4 @@
-# Untitled
+# Pricing
 
 [Lessons learnt \(the hard way\) using Firebase RealTime Database](https://pamartinezandres.com/lessons-learnt-the-hard-way-using-firebase-realtime-database-c609b52b9afb)
 

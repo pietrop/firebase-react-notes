@@ -2,7 +2,7 @@
 description: Some notes on using firebase with react
 ---
 
-# Firebase React notes
+# Firebase React Notes
 
 
 
