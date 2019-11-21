@@ -39,8 +39,9 @@
 * [Twitter sign in](auth/twitter-sign-in.md)
 * [Google sign in](auth/google-sign-in/README.md)
   * [Google Sign in custom domain](auth/google-sign-in/google-sign-in-custom-domain.md)
-* [Custom claims](auth/whitelisting.md)
-* [Limit auth to certain domain only](auth/limit-auth-to-certain-domain-only.md)
+* [Database Auth](auth/database-auth/README.md)
+  * [Custom claims](auth/database-auth/whitelisting.md)
+  * [Limit auth to certain domain only](auth/database-auth/limit-auth-to-certain-domain-only.md)
 * [Custom tokens](auth/custom-tokens.md)
 
 ## Cloud Functions
