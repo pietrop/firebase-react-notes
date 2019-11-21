@@ -1,4 +1,8 @@
-# Google Sign in custom domain
+# Google sign in custom domain
+
+{% hint style="warning" %}
+This should be accompanied by [database security rules](../database-auth/).
+{% endhint %}
 
 [`firebase.auth.GoogleAuthProvider`](https://firebase.google.com/docs/reference/js/firebase.auth.GoogleAuthProvider)
 

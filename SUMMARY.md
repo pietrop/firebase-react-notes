@@ -38,7 +38,7 @@
 * [Linking auth accounts](auth/linking-auth-accounts.md)
 * [Twitter sign in](auth/twitter-sign-in.md)
 * [Google sign in](auth/google-sign-in/README.md)
-  * [Google Sign in custom domain](auth/google-sign-in/google-sign-in-custom-domain.md)
+  * [Google sign in custom domain](auth/google-sign-in/google-sign-in-custom-domain.md)
 * [Database Auth](auth/database-auth/README.md)
   * [Custom claims](auth/database-auth/whitelisting.md)
   * [Limit auth to certain domain only](auth/database-auth/limit-auth-to-certain-domain-only.md)
