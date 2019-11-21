@@ -25,9 +25,9 @@
 * [Firestore data model](firestore/firestore-data-model.md)
 * [associated Firebase data with Users](firestore/associated-firebase-data-with-users.md)
 * [Firestore write](firestore/firestore-write.md)
-* [Firestore - read](firestore/firestore-read.md)
+* [Firestore - read](firestore/firestore-read/README.md)
+  * [Removing a listener from firestorm](firestore/firestore-read/removing-a-listener-from-firestorm.md)
 * [Firestore update](firestore/firestore-update.md)
-* [Removing a listener from firestorm](firestore/removing-a-listener-from-firestorm.md)
 * [Persisting data offline](firestore/persisting-data-offline.md)
 
 ## Auth
