@@ -27,6 +27,7 @@
 * [Firestore write](firestore/firestore-write.md)
 * [Firestore - read](firestore/firestore-read.md)
 * [Firestore update](firestore/firestore-update.md)
+* [Removing a listener from firestorm](firestore/removing-a-listener-from-firestorm.md)
 * [Persisting data offline](firestore/persisting-data-offline.md)
 
 ## Auth

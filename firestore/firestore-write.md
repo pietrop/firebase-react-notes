@@ -1,5 +1,7 @@
 # Firestore write
 
+[https://firebase.google.com/docs/firestore/manage-data/add-data\#set\_a\_document](https://firebase.google.com/docs/firestore/manage-data/add-data#set_a_document)
+
 ```javascript
 db.collection("transcripts").add({
   title: "new one",
