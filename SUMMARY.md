@@ -37,9 +37,10 @@
 * [Firebase Auth with React](auth/firebase-auth-with-react.md)
 * [Linking auth accounts](auth/linking-auth-accounts.md)
 * [Twitter sign in](auth/twitter-sign-in.md)
-* [Google sign in](auth/google-sign-in.md)
-* [Whitelisting](auth/whitelisting.md)
-* [limit auth to certain domain only](auth/limit-auth-to-certain-domain-only.md)
+* [Google sign in](auth/google-sign-in/README.md)
+  * [Google Sign in custom domain](auth/google-sign-in/google-sign-in-custom-domain.md)
+* [Custom claims](auth/whitelisting.md)
+* [Limit auth to certain domain only](auth/limit-auth-to-certain-domain-only.md)
 * [Custom tokens](auth/custom-tokens.md)
 
 ## Cloud Functions
