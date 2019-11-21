@@ -92,7 +92,18 @@ class Firebase {
 export default Firebase;
 ```
 
-[https://github.com/bbc/digital-paper-edit-client/blob/firebase/src/index.js](https://github.com/bbc/digital-paper-edit-client/blob/firebase/src/index.js)
+{% embed url="https://github.com/bbc/digital-paper-edit-client/blob/firebase/src/index.js" %}
+
+d
+
+```javascript
+import FirebaseContext, { withFirebase } from './context';
+import Firebase from './firebase';
+
+export default Firebase;
+
+export { FirebaseContext, withFirebase };
+```
 
 ## Higher order component - consumer
 
