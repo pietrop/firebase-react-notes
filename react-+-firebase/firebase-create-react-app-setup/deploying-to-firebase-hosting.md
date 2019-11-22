@@ -82,6 +82,10 @@ $ firebase use --add                                                            
 $ firebase deploy -P <environment-alias>
 ```
 
+### Authorisation
+
+Also, make sure to add the new domain to authorised domains if you want to use Authentication. This can be accessed via the UI.
+
 {% embed url="https://firebase.google.com/docs/hosting/multisites?authuser=1" %}
 
 The multisite feature supports a maximum of **36 sites per Firebase project**.
