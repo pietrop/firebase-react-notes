@@ -68,9 +68,7 @@ if (process.env.REACT_APP_DEPLOY_ENV='production') {
 
 **Hosting**
 
-Set up 2 different projects, e.g. `digital-paper-edit-<environment>`
-
-\`\`
+Set up 2 different projects, e.g. `digital-paper-edit-<environment>` as seen above
 
 \*\*\*\*[**https://dev.to/valentinprgnd/multiple-environments-with-firebase-hosting-1ao4**](https://dev.to/valentinprgnd/multiple-environments-with-firebase-hosting-1ao4)\*\*\*\*
 

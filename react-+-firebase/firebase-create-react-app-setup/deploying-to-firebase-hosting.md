@@ -41,3 +41,17 @@ firebase deploy
 
 React will build and a link will be provided in the console. You should be able to click on that link your React application will load!
 
+## Restricted to one "project" setup with multiple apps?
+
+If your company doesn't allow you to create as many projects as possible \(cost is mostly the reason why\), you want to setup Apps as a way to create your host.
+
+You can add multiple domains via the UI.
+
+{% embed url="https://firebase.google.com/docs/hosting/multisites?authuser=1" %}
+
+The multisite feature supports a maximum of **36 sites per Firebase project**.
+
+## A complete example of the Firebase JSON with hosting only
+
+[https://firebase.google.com/docs/hosting/full-config\#firebase-json\_example](https://firebase.google.com/docs/hosting/full-config#firebase-json_example)
+
