@@ -111,3 +111,7 @@
 
 * [links](useful-resources/untitled.md)
 
+## Firebase Extensions
+
+* [Firebase extension](firebase-extensions/firebase-extension.md)
+
