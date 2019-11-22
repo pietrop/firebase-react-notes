@@ -77,6 +77,7 @@
 
 ## STT
 
+* [enableWordTimeOffsets](stt/enablewordtimeoffsets.md)
 * [STT + Cloud Function](stt/stt.md)
 * [Cloud Function + STT - long running audio files](stt/cloud-function-+-stt-long-running-audio-files.md)
 * [STT + Google App Engine](stt/stt-+-google-app-engine.md)
