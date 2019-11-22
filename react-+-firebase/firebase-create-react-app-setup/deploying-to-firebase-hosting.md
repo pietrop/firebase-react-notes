@@ -69,6 +69,19 @@ Once you've done that you should add hosting configuration to your `firebase.jso
 }
 ```
 
+To further simplify your life you can also aliasing the project name:
+
+```bash
+$ firebase use --add                                                                                 ✔  17:37:51 
+> ? Which project do you want to add? <environment-specific-project-name>
+> ? What alias do you want to use for this project? (e.g. staging) <environment-alias>
+
+> Created alias dev for <environment-specific-project-name>.
+> Now using alias dev (<environment-specific-project-name>)
+                                                                              ✔  17:39:09 
+$ firebase deploy -P <environment-alias>
+```
+
 {% embed url="https://firebase.google.com/docs/hosting/multisites?authuser=1" %}
 
 The multisite feature supports a maximum of **36 sites per Firebase project**.
