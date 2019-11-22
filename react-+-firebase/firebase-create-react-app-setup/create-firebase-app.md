@@ -14,7 +14,7 @@ You will be presented with a login prompt in your browser. Click Allow to comple
 
 ## Firebase environments
 
-If you are just playing around then you can skip this step. When you get serious about developing a real application you will want to create multiple Firebase environments. To start let's create two firebase environments-- a development and production environment. The development environment will be the default environment that can be used for trying out new features and the production environment will the the "stable" customer facing environment.
+If you are just playing around then you can skip this step. When you get serious about developing a real application you will want to create multiple Firebase environments. To start let's create two firebase environments -- a development and production environment. The development environment will be the default environment that can be used for trying out new features and the production environment will the the "stable" customer facing environment.
 
 ```bash
 firebase projects:create ${REACT_APP}-production
@@ -22,6 +22,8 @@ firebase projects:create ${REACT_APP}-development
 ```
 
 Firebase environment names must be unique, so if the name you want is not available, try a different name.
+
+
 
 ## Initialize Firebase
 
@@ -46,7 +48,13 @@ firebase use default; # switch back to development
 
 ## Firebase implicit initialization scripts
 
-Implicit initialization is a nifty way to initialize Firebase without config files. When supporting multiple configurations from a single project it is the only easy way to support multiple configurations. We really do not want to have the following code because it is not a good idea to leak non-production environment details in a production application:
+Implicit initialization is a nifty way to initialize Firebase without config files. When supporting multiple configurations from a single project it is the only easy way to support multiple configurations.
+
+### Environments
+
+#### Don't do
+
+We really **do not want to have the following code** because it is not a good idea to leak non-production environment details in a production application:
 
 ```javascript
 if (process.env.REACT_APP_DEPLOY_ENV='production') {
@@ -55,6 +63,24 @@ if (process.env.REACT_APP_DEPLOY_ENV='production') {
   firebase.initializeApp(developmentConfig) 
 }
 ```
+
+#### Do
+
+**Hosting**
+
+Set up 2 different projects, e.g. `digital-paper-edit-<environment>`
+
+\`\`
+
+\*\*\*\*[**https://dev.to/valentinprgnd/multiple-environments-with-firebase-hosting-1ao4**](https://dev.to/valentinprgnd/multiple-environments-with-firebase-hosting-1ao4)\*\*\*\*
+
+**Functions**
+
+Firebase SDK for Cloud Functions offers built-in environment configuration to make it easy to store and retrieve this type of data for your project. ****You can access them via `functions.config()`
+
+{% embed url="https://firebase.google.com/docs/functions/config-env" %}
+
+### Implicit Initialization \(/\_\_/\)
 
 Implicit initialization works by loading Firebase javascript from a special `/__/` folder. We we deploy our app to Firebase this route will exist for us but locally we will need to do a little more work to set it up.
 

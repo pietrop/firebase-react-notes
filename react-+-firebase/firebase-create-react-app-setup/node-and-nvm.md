@@ -6,7 +6,7 @@ description: One time dev setup
 
 ## Getting started
 
-First we need to install some tools. These instruction assume a unix terminal prompt. For windows, install WSL \(Windows Subsystem for Linux\) from the Windows app store
+First we need to install some tools. These instruction assume a unix terminal prompt. For windows, install WSL \(Windows Subsystem for Linux\) from the Windows app store.
 
 ## Install NodeJS
 

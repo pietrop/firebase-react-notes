@@ -1,5 +1,7 @@
 # Motivation
 
+React's Context management is great for keeping a Firebase Singleton for your application. By also setting up a Context specifically for Sessions, you can make sure that certain components are only accessible via successful authentication.
+
 If you are initialising firebase like this 
 
 ```javascript
