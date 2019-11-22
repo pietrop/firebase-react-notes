@@ -47,6 +47,7 @@
 ## Cloud Functions
 
 * [Cloud Functions](cloud-functions/cloud-functions.md)
+* [Set timeout](cloud-functions/set-timeout.md)
 * [Call functions via HTTP requests](cloud-functions/call-functions-via-http-requests.md)
 * [HTTPS Callable](cloud-functions/https-callable.md)
 * [Separate Cloud Function in multiple files](cloud-functions/cloud-function-separate-in-multiple-files.md)
