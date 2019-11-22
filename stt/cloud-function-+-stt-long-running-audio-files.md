@@ -145,6 +145,80 @@ client.longRunningRecognize(request)
 
 ```
 
+`responses` example, I've shorten the data in Buffer attributes for brevity.
+
+* first element of the response array is the results of GCP STT
+* second element of the response array is the metadata
+* third element of the response array is the final api response
+
+```javascript
+[
+  {
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "everyone welcome to the Apple Incorporated fourth quarter of fiscal year 2019 earnings conference call to this call is being recorded at this time for opening remarks and introductions I'd like to turn the call over to Nancy teksten can you collect your industrial Nations please go ahead and look at my history and after that we'll open the call to questions from analysts",
+            "confidence": 0.9489607214927673
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " please note that some of the information you'll hear during our discussion today will consist of forward-looking statements including without limitation those regarding Revenue gross margin operating expenses other income and expense taxes Capital allocation and future business Outlook actual results are trans could differ materially from our forecast for more information please refer to the risk factors discussed in Apple's most recently filed periodic reports on form 10-K and form 10-q and a form 8-k filed with the SEC today along with the Associated Press release Apple assumes no obligation to update any forward-looking statements or information which speak as of their respective dates I'd now like to turn the call over to Tim for introductory remarks good afternoon and thanks to all of you for joining us especially those of you listening in on our new noise cancelling airpods Pro which are available beginning today",
+            "confidence": 0.9777160882949829
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " this was Apple's highest revenue in a September quarter ever and I want to take you through some of the highlights before we get into greater detail on the conclusion of a remarkable physical 2019 for Apple",
+            "confidence": 0.9561960101127625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "progressPercent": 100,
+    "startTime": { "seconds": "1574440034", "nanos": 902020000 },
+    "lastUpdateTime": { "seconds": "1574440082", "nanos": 625018000 }
+  },
+  {
+    "name": "59308473068549040",
+    "metadata": {
+      "type_url": "type.googleapis.com/google.cloud.speech.v1.LongRunningRecognizeMetadata",
+      "value": {
+        "type": "Buffer",
+        "data": [
+          8,
+          100,
+          ...
+          2
+        ]
+      }
+    },
+    "done": true,
+    "response": {
+      "type_url": "type.googleapis.com/google.cloud.speech.v1.LongRunningRecognizeResponse",
+      "value": {
+        "type": "Buffer",
+        "data": [
+          18,
+          ...
+          63
+        ]
+      }
+    },
+    "result": "response"
+  }
+]
+
+
+```
+
 Or 
 
 ```javascript
