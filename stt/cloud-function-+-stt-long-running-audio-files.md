@@ -6,7 +6,6 @@
 Based on what I found in the docs, see below, it seems like it could be possible to start the  STT operation via a cloud function, and then check on the results later.
 {% endhint %}
 
-  
 
 
 > _Asynchronous speech recognition_ starts a long running audio processing operation. Use asynchronous speech recognition to recognize audio that is longer than a minute. For shorter audio, [Synchronous Speech Recognition](https://cloud.google.com/speech-to-text/docs/sync-recognize) is faster and simpler.
