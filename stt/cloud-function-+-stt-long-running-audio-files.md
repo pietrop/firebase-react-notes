@@ -3,7 +3,7 @@
 [https://gigazine.net/gsc\_news/en/20180824-speech-to-text-gcp-cloud-mojiokoshi/](https://gigazine.net/gsc_news/en/20180824-speech-to-text-gcp-cloud-mojiokoshi/)
 
 {% hint style="warning" %}
-Based on what I found in the docs, see below, it seems like it could be possible to start the operation via cloud function, and then check on the results later.
+Based on what I found in the docs, see below, it seems like it could be possible to start the  STT operation via a cloud function, and then check on the results later.
 {% endhint %}
 
   
