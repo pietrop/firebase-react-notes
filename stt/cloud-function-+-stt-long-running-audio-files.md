@@ -145,7 +145,7 @@ client.longRunningRecognize(request)
 
 ```
 
-`responses` example, I've shorten the data in Buffer attributes for brevity.
+`responses` example, from second `then` .I've shorten the data in Buffer attributes for brevity.
 
 * first element of the response array is the results of GCP STT
 * second element of the response array is the metadata
