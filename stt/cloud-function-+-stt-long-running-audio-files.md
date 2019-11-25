@@ -284,6 +284,12 @@ const [response] = await operation.promise();
 GET https://speech.googleapis.com/v1/operations/{name=**}
 ```
 
+in the example below, `operationName`is the `name` that you get in `initialApiResponse`.  while `firebaseApiKey` you can find it [in google cloud console](https://developers.google.com/places/web-service/get-api-key). You may or may not need this API key if calling this end point within a firebase function.
+
+```javascript
+https://speech.googleapis.com/v1/operations/${operationName}?key=${firebaseApiKey}
+```
+
   
 from [https://cloud.google.com/speech-to-text/docs/reference/rest/v1/operations/get](https://cloud.google.com/speech-to-text/docs/reference/rest/v1/operations/get)
 
