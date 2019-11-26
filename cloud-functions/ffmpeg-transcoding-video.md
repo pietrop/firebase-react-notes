@@ -1,5 +1,11 @@
 # ffmpeg transcoding video
 
+{% hint style="warning" %}
+Not sure if running this in a google cloud function would time out if it takes too long?
+{% endhint %}
+
+
+
 in a  Google Cloud Function that is triggered by the upload Google Cloud Storage bucket.
 
 Interesting how it uses stream to save the output of ffmpeg back into the bucket
