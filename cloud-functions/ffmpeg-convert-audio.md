@@ -100,3 +100,15 @@ exports.generateMonoAudio = functions.storage.object().onFinalize(async (object)
 });
 ```
 
+## ffmpeg binary on cloud function
+
+Seems like ffmpeg is availabe on cloud function by default.
+
+> We are also rebasing the **underlying Cloud Functions operating system onto Ubuntu 18.04 LTS to broaden the scope of libraries available**. In addition to imagemagick, available since beta launch, you now get **access to additional system libraries such as ffmpeg** and libcairo2, as well as everything required to run headless Chrome. For example, you can now process videos and take web page screenshots in Chrome from within Cloud Functions.
+
+[https://cloud.google.com/blog/products/gcp/cloud-functions-serverless-platform-is-generally-available](https://cloud.google.com/blog/products/gcp/cloud-functions-serverless-platform-is-generally-available)
+
+[System Packages Included in the Node.js Runtimes](https://cloud.google.com/functions/docs/reference/nodejs-system-packages?hl=no)
+
+
+
