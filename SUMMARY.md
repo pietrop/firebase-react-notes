@@ -29,6 +29,7 @@
   * [Removing a listener from firestorm](firestore/firestore-read/removing-a-listener-from-firestorm.md)
 * [Firestore update](firestore/firestore-update.md)
 * [Persisting data offline](firestore/persisting-data-offline.md)
+* [Importing json](firestore/importing-json.md)
 
 ## Auth
 
