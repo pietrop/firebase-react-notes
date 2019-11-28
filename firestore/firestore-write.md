@@ -17,3 +17,14 @@ db.collection("transcripts").add({
 
 #### 
 
+## Indexing
+
+There current is roughly 40,000 limit to indexing for Firestore.
+
+[https://firebase.google.com/docs/firestore/query-data/index-overview\#indexing\_best\_practices](https://firebase.google.com/docs/firestore/query-data/index-overview#indexing_best_practices)
+
+> Large string fields  
+> If you have a string field that often holds long string values that you don’t use for querying, you can cut storage costs by exempting the field from indexing.
+
+
+
