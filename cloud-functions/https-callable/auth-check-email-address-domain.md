@@ -2,7 +2,7 @@
 description: cloud function auth email domain check
 ---
 
-# Auth check email address domain
+# HTTPS Callable cloud function auth check email address domain
 
 Sometimes you want to add an extra layer of security in case the firebase client side auth is compromised.  
 

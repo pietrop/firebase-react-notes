@@ -51,7 +51,7 @@
 * [Set timeout](cloud-functions/set-timeout.md)
 * [Call functions via HTTP requests](cloud-functions/call-functions-via-http-requests.md)
 * [HTTPS Callable](cloud-functions/https-callable/README.md)
-  * [Auth check email address domain](cloud-functions/https-callable/auth-check-email-address-domain.md)
+  * [HTTPS Callable cloud function auth check email address domain](cloud-functions/https-callable/auth-check-email-address-domain.md)
 * [Separate Cloud Function in multiple files](cloud-functions/cloud-function-separate-in-multiple-files.md)
 * [Slack integration](cloud-functions/slack-integration.md)
 * [Twilio firebase functions](cloud-functions/twilio-firebase-functions.md)
