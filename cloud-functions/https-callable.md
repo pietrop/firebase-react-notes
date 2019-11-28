@@ -82,7 +82,7 @@ The following code can help you further mitigate that with server side validatio
   if(!email.endsWith('@example.com')){
     throw new functions.https.HttpsError(
       "failed-precondition",
-      "The function must be called " + "while authenticated with WSJ email address."
+      "The function must be called " + "while authenticated with @example.com email address."
     );
   }
 ```
