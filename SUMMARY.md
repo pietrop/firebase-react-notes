@@ -63,6 +63,7 @@
 * [Security](storage/security.md)
 * [Create](storage/storage.md)
 * [Delete](storage/delete.md)
+* [Getting full path](storage/getting-full-path.md)
 
 ## Hosting
 
