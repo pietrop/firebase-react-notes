@@ -60,6 +60,7 @@
 
 ## Storage
 
+* [Security](storage/security.md)
 * [Create](storage/storage.md)
 * [Delete](storage/delete.md)
 
