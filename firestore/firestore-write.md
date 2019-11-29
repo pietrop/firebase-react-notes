@@ -26,5 +26,16 @@ There current is roughly 40,000 limit to indexing for Firestore.
 > Large string fields  
 > If you have a string field that often holds long string values that you don’t use for querying, you can cut storage costs by exempting the field from indexing.
 
+{% embed url="https://firebase.google.com/docs/firestore/query-data/indexing" %}
 
+### Remove indexes <a id="remove_indexes"></a>
+
+To delete an index:
+
+1. Go to the **Database** section of the [Firebase console](https://console.firebase.google.com/project/_/database/firestore/data).
+2. Click the **Indexes** tab.
+3. Hover over the index you want to delete and select **Delete** from the context menu.
+4. Confirm that you want to delete it by clicking **Delete** from the alert.
+
+It doesn't mention anywhere how to do this programmatically... :\( 
 
