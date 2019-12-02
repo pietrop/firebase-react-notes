@@ -39,3 +39,9 @@ To delete an index:
 
 It doesn't mention anywhere how to do this programmatically... :\( 
 
+## Server Timestamp
+
+{% embed url="https://firebase.google.com/docs/reference/node/firebase.firestore.FieldValue.html\#servertimestamp" %}
+
+You need access to FieldValue, which is available from `firebase.firestore.FieldValue.serverTimestamp()`
+
