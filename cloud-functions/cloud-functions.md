@@ -28,5 +28,32 @@ folder, also add to `.gitignore`
 
 Firestore triggers [https://firebase.google.com/docs/functions/firestore-events](https://firebase.google.com/docs/functions/firestore-events)
 
+Since you **cannot configure a function to be triggered by subdirectories**. It's only possible to listen to the entire bucket. If you have a trigger based on Bucket, the recommendation is to create a new, separate bucket so that you are not triggered every time a file changes in the Bucket.
+
+You can do environments for Functions:
+
+```bash
+$ firebase -P dev functions:config:set storage.bucket="dev-digital-paper-edit"
+> ✔  Functions config updated.
+
+$ firebase -P dev functions:config:get
+> {
+    "storage": {
+      "bucket": "dev-digital-paper-edit"
+    }
+  }
+$ firebase -P prod functions:config:get
+> {}
+```
+
+And then subsequently in a Function you'd use the config like so:
+
+```javascript
+const functions = require("firebase-functions");
+const BucketFunctions = functions.storage.object(
+ functions.config().storage.bucket
+);
+```
+
 
 
