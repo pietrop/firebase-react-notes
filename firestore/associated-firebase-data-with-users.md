@@ -12,4 +12,15 @@ Other option
 
 Multiple users
 
-* 
+
+
+### ADR around reasoning to design of schema and security
+
+{% embed url="https://github.com/bbc/digital-paper-edit-firebase/blob/master/docs/ADR/2019-12-02-nosql-schema-security.md" caption="ADR around the NoSQL Schema" %}
+
+### Example of implementation
+
+{% embed url="https://github.com/bbc/digital-paper-edit-firebase/blob/master/firestore.rules" caption="Security Rules" %}
+
+
+
