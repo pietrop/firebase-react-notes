@@ -122,3 +122,7 @@
 
 * [Firebase extension](firebase-extensions/firebase-extension.md)
 
+## Chrome Extension
+
+* [Firebase in a chrome extension](chrome-extension/firebase-in-a-chrome-extension.md)
+
