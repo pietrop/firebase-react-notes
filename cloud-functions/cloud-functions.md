@@ -24,11 +24,15 @@ folder, also add to `.gitignore`
 
 `firebase functions:config:set aws.aws_access_key_id="XXXX" aws.aws_scret_access_key="XXXX"`
 
-## Triggers
+## Storage Triggers
 
 Firestore triggers [https://firebase.google.com/docs/functions/firestore-events](https://firebase.google.com/docs/functions/firestore-events)
 
 Since you **cannot configure a function to be triggered by subdirectories**. It's only possible to listen to the entire bucket. If you have a trigger based on Bucket, the recommendation is to create a new, separate bucket so that you are not triggered every time a file changes in the Bucket.
+
+1. Create a new bucket
+2. Update your Functions environment config with new bucket name
+3. Call the `functions.config()` to get the specified bucket name
 
 You can do environments for Functions:
 
