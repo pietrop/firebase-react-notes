@@ -59,5 +59,13 @@ const BucketFunctions = functions.storage.object(
 );
 ```
 
+#### Caveat
 
+A big caveat here - you don't have a document anywhere in your repo that tells you what this is. You need to be logged in into firebase and run the above 
+
+```bash
+firebase -P dev functions:config:get
+```
+
+command to know what this is.
 
