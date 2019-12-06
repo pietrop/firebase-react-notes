@@ -48,7 +48,7 @@
 ## Cloud Functions
 
 * [Cloud Functions](cloud-functions/cloud-functions.md)
-* [Set timeout](cloud-functions/set-timeout.md)
+* [Set timeout and memory allocation](cloud-functions/set-timeout.md)
 * [Call functions via HTTP requests](cloud-functions/call-functions-via-http-requests.md)
 * [HTTPS Callable](cloud-functions/https-callable/README.md)
   * [HTTPS Callable cloud function auth check email address domain](cloud-functions/https-callable/auth-check-email-address-domain.md)

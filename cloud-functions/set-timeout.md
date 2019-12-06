@@ -1,4 +1,4 @@
-# Set timeout
+# Set timeout and memory allocation
 
 [https://firebase.google.com/docs/functions/manage-functions\#set\_timeout\_and\_memory\_allocation](https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation)
 
