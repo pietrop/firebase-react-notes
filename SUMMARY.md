@@ -63,6 +63,7 @@
 * [Security](storage/security.md)
 * [Create](storage/storage.md)
 * [Delete](storage/delete.md)
+* [Uploading with React to Firebase Storage](storage/uploading-with-react-to-firebase-storage.md)
 * [Getting full path](storage/getting-full-path.md)
 
 ## Hosting
