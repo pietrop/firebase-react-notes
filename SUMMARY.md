@@ -21,7 +21,8 @@
 
 ## Firestore
 
-* [Firestore](firestore/firestore.md)
+* [Firestore](firestore/firestore/README.md)
+  * [Using a function to check email domain](firestore/firestore/using-a-function-to-check-email-domain.md)
 * [Firestore data model](firestore/firestore-data-model.md)
 * [associated Firebase data with Users](firestore/associated-firebase-data-with-users.md)
 * [Firestore write](firestore/firestore-write.md)
