@@ -4,6 +4,12 @@
 
 Head on over to console.firebase.google.com and activate Firebase for your Google account. If you select the Spark plan then for moderately sized applications there is no cost.
 
+Install firebase tools on your local system 
+
+```text
+npm install -g firebase-tools
+```
+
 Once you have activated firebase, go back to the terminal and login:
 
 ```bash
