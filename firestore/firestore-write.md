@@ -45,3 +45,5 @@ It doesn't mention anywhere how to do this programmatically... :\(
 
 You need access to FieldValue, which is available from `firebase.firestore.FieldValue.serverTimestamp()`
 
+This can also be used client side 
+
