@@ -301,3 +301,11 @@ Where `name` is a string and is
 
 If the audio takes to long to transcribe and the cloud function times out, from the `name` attribute of the `initialApiResponse` it would be possible to do pooling and gets the latest state of a long-running operation. Including result when it's done. via the `operations.get`.
 
+
+
+for the firebase API key project settings in console, under cloud messaging 
+
+{% embed url="https://stackoverflow.com/questions/13863297/firebase-what-is-the-api-key" %}
+
+
+
