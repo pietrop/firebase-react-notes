@@ -303,7 +303,7 @@ If the audio takes to long to transcribe and the cloud function times out, from 
 
 
 
-for the firebase API key project settings in console, under cloud messaging 
+for the firebase API key project settings in console, under web api key
 
 {% embed url="https://stackoverflow.com/questions/13863297/firebase-what-is-the-api-key" %}
 
