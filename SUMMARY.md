@@ -88,6 +88,7 @@
 * [enableWordTimeOffsets](stt/enablewordtimeoffsets.md)
 * [STT + Cloud Function](stt/stt.md)
 * [Cloud Function + STT - long running audio files](stt/cloud-function-+-stt-long-running-audio-files.md)
+* [STT + Cloud Function + Cloud task](stt/stt-+-cloud-function-+-cloud-task.md)
 * [STT + Google App Engine](stt/stt-+-google-app-engine.md)
 * [STT via Google Cloud Video intelligence API](stt/stt-via-google-cloud-video-intelligence-api.md)
 
