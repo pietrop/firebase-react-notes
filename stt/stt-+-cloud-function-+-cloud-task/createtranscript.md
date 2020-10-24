@@ -3,6 +3,11 @@
 ```javascript
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
+const path = require('path');
+const os = require('os');
+const fs = require('fs');
+const ffmpeg = require('fluent-ffmpeg');
+
 
 const AUDIO_EXTENSION = 'ogg';
 const SAMPLE_RATE_HERTZ = 16000; // or 48000
@@ -10,6 +15,62 @@ const MAX_RUNTIME_OPTS = {
   timeoutSeconds: 540, // 9 minutes
   memory: '2GB',
 };
+
+
+const addMinutes = (date, minutes) => {
+  return new Date(date.getTime() + minutes * 60000);
+};
+
+const getSecondsSinceEpoch = date => {
+  return Math.round(date.getTime() / 1000);
+};
+
+/**
+* Helper funciton to conver video and audio media to audio that meets GCP STT specs 
+*/
+const convertToAudio = async (admin, storageRef, downloadURLLink, AUDIO_EXTENSION, SAMPLE_RATE_HERTZ) => {
+  return new Promise(async (resolve, reject) => {
+    // Get the file name.
+    const fileName = path.basename(storageRef);
+    const filePath = storageRef;
+    // Exit if the audio is already converted.
+    if (fileName.endsWith(`_output.${AUDIO_EXTENSION}`)) {
+      console.error('Already a converted audio.');
+      // return null;
+      reject(new Error());
+    }
+
+    const bucket = admin.storage().bucket();
+    // We add a '_output.flac' suffix to target audio file name. That's where we'll upload the converted audio.
+    const targetTempFileName = fileName.replace(/\.[^/.]+$/, '') + `_output.${AUDIO_EXTENSION}`;
+    const targetTempFilePath = path.join(os.tmpdir(), targetTempFileName);
+    const targetStorageFilePath = path.join(path.dirname(filePath), targetTempFileName);
+
+    ffmpeg(downloadURLLink)
+      .noVideo()
+      .audioChannels(1)
+      .audioFrequency(SAMPLE_RATE_HERTZ)
+      .audioCodec('libopus')
+      .output(targetTempFilePath)
+      .on('end', async () => {
+        // Uploading the audio Google Cloud Storage
+        await bucket.upload(targetTempFilePath, {
+          destination: targetStorageFilePath,
+          // without resumable false, this seems to fail
+          resumable: false,
+        });
+        // Once the audio has been uploaded delete the local file to free up disk space.
+        fs.unlinkSync(targetTempFilePath);
+        resolve(targetStorageFilePath);
+      })
+      .on('error', err => {
+        reject(err);
+      })
+      .run();
+  });
+};
+
+
 // TODO: Google cloud function triggers Goolge Cloud task
 //  Goolge Cloud task calls cloud function that calls STT SDK
 // this function returns null.

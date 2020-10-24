@@ -91,7 +91,8 @@
 * [STT + Cloud Function + Cloud task](stt/stt-+-cloud-function-+-cloud-task/README.md)
   * [Example implementation](stt/stt-+-cloud-function-+-cloud-task/example-implementation.md)
   * [\`createTranscript\`](stt/stt-+-cloud-function-+-cloud-task/createtranscript.md)
-  * [Untitled](stt/stt-+-cloud-function-+-cloud-task/untitled.md)
+  * [\`createHandler\`](stt/stt-+-cloud-function-+-cloud-task/untitled/README.md)
+    * [Firebase ENV](stt/stt-+-cloud-function-+-cloud-task/untitled/firebase-env.md)
 * [STT + Google App Engine](stt/stt-+-google-app-engine.md)
 * [STT via Google Cloud Video intelligence API](stt/stt-via-google-cloud-video-intelligence-api.md)
 
