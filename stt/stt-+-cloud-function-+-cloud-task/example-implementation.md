@@ -34,7 +34,7 @@ You'd need 2 cloud function, one \(`createTranscript`\)to start the recognition,
   * [ ] if errors 
     * [ ] save data to firestore
 
-IF transcript has been deleted, should try to save in the cloud task, it should drop it Eg instead of set / merge should be try catch, with a method for update only if it exists
+missing handling edge cases, eg If the transcript has been deleted, should try to save in the cloud task, it should drop it Eg instead of set / merge should be try catch, with a method for update only if it exists
 
 
 
