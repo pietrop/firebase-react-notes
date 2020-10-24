@@ -1,7 +1,8 @@
 # ffmpeg transcoding video
 
 {% hint style="warning" %}
-Not sure if running this in a google cloud function would time out if it takes too long?
+Not sure if running this in a google cloud function would time out if it takes too long?  
+Probably better to consider using google cloud compute or google engine?
 {% endhint %}
 
 in a  Google Cloud Function that is triggered by the upload Google Cloud Storage bucket.
