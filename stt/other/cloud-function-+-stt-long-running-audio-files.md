@@ -6,8 +6,6 @@
 Based on what I found in the docs, see below, it seems like it could be possible to start the  STT operation via a cloud function, and then check on the results later.
 {% endhint %}
 
-
-
 > _Asynchronous speech recognition_ starts a long running audio processing operation. Use asynchronous speech recognition to recognize audio that is longer than a minute. For shorter audio, [Synchronous Speech Recognition](https://cloud.google.com/speech-to-text/docs/sync-recognize) is faster and simpler.
 >
 > You can retrieve the results of the operation via the [google.longrunning.Operations](https://cloud.google.com/speech-to-text/docs/reference/rest/v1/operations#resource-operation) interface. Results remain available for retrieval for 5 days \(120 hours\). Audio content can be sent directly to Cloud Speech-to-Text or it can process audio content that already resides in Google Cloud Storage. See also the [audio limits](https://cloud.google.com/speech-to-text/quotas) for asynchronous speech recognition requests.

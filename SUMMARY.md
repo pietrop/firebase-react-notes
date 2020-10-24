@@ -85,16 +85,17 @@
 
 ## STT
 
-* [enableWordTimeOffsets](stt/enablewordtimeoffsets.md)
-* [STT + Cloud Function](stt/stt.md)
-* [STT + Cloud Function + Cloud task](stt/stt-+-cloud-function-+-cloud-task/README.md)
+* [STT + Cloud Function + Cloud Task](stt/stt-+-cloud-function-+-cloud-task/README.md)
   * [Example implementation](stt/stt-+-cloud-function-+-cloud-task/example-implementation.md)
-  * [\`createTranscript\`](stt/stt-+-cloud-function-+-cloud-task/createtranscript/README.md)
-    * [STT longRunningRecognize in Cloud function](stt/stt-+-cloud-function-+-cloud-task/createtranscript/cloud-function-+-stt-long-running-audio-files.md)
+  * [\`createTranscript\`](stt/stt-+-cloud-function-+-cloud-task/createtranscript.md)
   * [\`createHandler\`](stt/stt-+-cloud-function-+-cloud-task/untitled/README.md)
     * [Firebase ENV](stt/stt-+-cloud-function-+-cloud-task/untitled/firebase-env.md)
-* [STT + Google App Engine](stt/stt-+-google-app-engine.md)
-* [STT via Google Cloud Video intelligence API](stt/stt-via-google-cloud-video-intelligence-api.md)
+* [Other](stt/other/README.md)
+  * [enableWordTimeOffsets](stt/other/enablewordtimeoffsets.md)
+  * [STT longRunningRecognize in Cloud function](stt/other/cloud-function-+-stt-long-running-audio-files.md)
+  * [STT + Cloud Function](stt/other/stt.md)
+  * [STT + Google App Engine](stt/other/stt-+-google-app-engine.md)
+  * [STT via Google Cloud Video intelligence API](stt/other/stt-via-google-cloud-video-intelligence-api.md)
 
 ## CI Integration
 

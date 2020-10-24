@@ -1,4 +1,4 @@
-# STT + Cloud Function + Cloud task
+# STT + Cloud Function + Cloud Task
 
 > With Cloud Tasks, you first [create a queue](https://cloud.google.com/tasks/docs/creating-queues), optionally configure it, then add tasks to the queue using the provided SDK. An individual task can be configured to [make an HTTP request](https://cloud.google.com/tasks/docs/creating-http-target-tasks) with a payload that describes the work to be done. I like to think of the HTTP function as a kind of “future callback” that receives instructions on what to do at the time it was invoked.
 
