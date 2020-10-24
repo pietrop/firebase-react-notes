@@ -1,4 +1,4 @@
-# Cloud Function + STT - long running audio files
+# STT longRunningRecognize in Cloud function
 
 [https://gigazine.net/gsc\_news/en/20180824-speech-to-text-gcp-cloud-mojiokoshi/](https://gigazine.net/gsc_news/en/20180824-speech-to-text-gcp-cloud-mojiokoshi/)
 

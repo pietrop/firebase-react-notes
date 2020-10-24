@@ -87,10 +87,10 @@
 
 * [enableWordTimeOffsets](stt/enablewordtimeoffsets.md)
 * [STT + Cloud Function](stt/stt.md)
-* [Cloud Function + STT - long running audio files](stt/cloud-function-+-stt-long-running-audio-files.md)
 * [STT + Cloud Function + Cloud task](stt/stt-+-cloud-function-+-cloud-task/README.md)
   * [Example implementation](stt/stt-+-cloud-function-+-cloud-task/example-implementation.md)
-  * [\`createTranscript\`](stt/stt-+-cloud-function-+-cloud-task/createtranscript.md)
+  * [\`createTranscript\`](stt/stt-+-cloud-function-+-cloud-task/createtranscript/README.md)
+    * [STT longRunningRecognize in Cloud function](stt/stt-+-cloud-function-+-cloud-task/createtranscript/cloud-function-+-stt-long-running-audio-files.md)
   * [\`createHandler\`](stt/stt-+-cloud-function-+-cloud-task/untitled/README.md)
     * [Firebase ENV](stt/stt-+-cloud-function-+-cloud-task/untitled/firebase-env.md)
 * [STT + Google App Engine](stt/stt-+-google-app-engine.md)
