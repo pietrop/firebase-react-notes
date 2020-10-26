@@ -4,6 +4,8 @@
 
 You'd need 2 cloud function, one \(`createTranscript`\)to start the recognition, and trigger a cloud task that on a time delay triggers the second one \(`firestoreCheckSTT`\)to check the progress of the transcription gcp operation. If the transcript is not done, it triggers another cloud task to re-trigger the second cloud task later.
 
+![GCP STT + Cloud functions + Cloud Task](../../.gitbook/assets/gcp-stt+cloud-task.png)
+
 ## Cloud Function `createTranscript`
 
 * [ ] Create audio that meets GCP STT Specs  \(eg `ogg` or `wav`.`ffmpeg` bin present on GCP Cloud function by default\)
