@@ -66,6 +66,7 @@
 * [Delete](storage/delete.md)
 * [Uploading with React to Firebase Storage](storage/uploading-with-react-to-firebase-storage.md)
 * [Getting full path](storage/getting-full-path.md)
+* [Firebase \`getDownloadURL\`](storage/firebase-getdownloadurl.md)
 
 ## Hosting
 
