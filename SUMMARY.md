@@ -19,6 +19,10 @@
 * [Firebase function local dev react](react-+-firebase/firebase-function-local-dev-react.md)
 * [React firebase hooks](react-+-firebase/react-firebase-hooks.md)
 
+## Multiple ENVs
+
+* [Multiple ENVs](multiple-envs/multiple-envs.md)
+
 ## Firestore
 
 * [Firestore](firestore/firestore/README.md)
