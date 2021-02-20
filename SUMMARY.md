@@ -22,6 +22,8 @@
 ## Multiple ENVs
 
 * [Multiple ENVs](multiple-envs/multiple-envs.md)
+* [Manual setup](multiple-envs/manual-setup.md)
+* [Terraform](multiple-envs/terraform.md)
 
 ## Firestore
 
