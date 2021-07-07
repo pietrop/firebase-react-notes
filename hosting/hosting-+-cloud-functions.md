@@ -75,5 +75,7 @@ full `firebase.json`
 
 {% embed url="https://javascript.plainenglish.io/hosting-your-react-js-and-node-js-apps-for-free-with-firebase-6dc670564aca" %}
 
+{% embed url="https://stackoverflow.com/questions/59664007/how-to-call-firebase-callable-functions-from-localhost" %}
+
 
 
