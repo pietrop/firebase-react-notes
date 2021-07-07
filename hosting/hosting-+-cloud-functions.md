@@ -75,6 +75,112 @@ full `firebase.json`
 
 {% embed url="https://javascript.plainenglish.io/hosting-your-react-js-and-node-js-apps-for-free-with-firebase-6dc670564aca" %}
 
+### Local dev
+
+for local dev, local host talking to firebase cloud function
+
+In cloud function accept cors
+
+```javascript
+exports.yourFuncation = functions.https.onRequest((request, response) => {
+response.set('Access-Control-Allow-Origin', "*")
+/*Your code and response*/})
+```
+
+In `firebase.json`  - setting headers for cloud functions via hosting
+
+```text
+{
+...
+"functions": {
+    "predeploy": [
+      ...
+    ],
+    "headers": [{
+        "key": "Access-Control-Allow-Origin",
+        "value": "*"
+    }]
+}}
+```
+
+as well as setting headers under hosting
+
+```javascript
+"rewrites": [{
+"source": "**",
+"destination": "/index.html",
+"headers": [{
+    "key": "Access-Control-Allow-Origin",
+    "value": "*"
+}]}]}
+```
+
+full `firebase.json`
+
+```javascript
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [],
+    "rewrites": [
+      {
+        "source": "/api",
+        "function": "api"
+      },
+      {
+        "source": "/**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "index.html",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      },
+      {
+        "source": "/firebaseCustomToken",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": {
+    "predeploy": [],
+    "headers": [
+      {
+        "key": "Access-Control-Allow-Origin",
+        "value": "*"
+      }
+    ],
+    "ignore": [
+      "**/examples/**"
+    ],
+    "source": "functions"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
+```
+
 {% embed url="https://stackoverflow.com/questions/59664007/how-to-call-firebase-callable-functions-from-localhost" %}
 
 
