@@ -79,6 +79,7 @@
 ## Hosting
 
 * [Hosting](hosting/hosting.md)
+* [Hosting + cloud functions](hosting/hosting-+-cloud-functions.md)
 
 ## Firebase Admin
 
