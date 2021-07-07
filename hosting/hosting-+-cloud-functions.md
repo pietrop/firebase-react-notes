@@ -73,7 +73,7 @@ full `firebase.json`
 }
 ```
 
-{% page-ref page="hosting-+-cloud-functions.md" %}
+{% embed url="https://javascript.plainenglish.io/hosting-your-react-js-and-node-js-apps-for-free-with-firebase-6dc670564aca" %}
 
 
 
